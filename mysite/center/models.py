@@ -15,6 +15,6 @@ class Storage(models.Model):
     vaccine= models.ForeignKey(Vaccine,on_delete=models.CASCADE)
     total_quantity = models.IntegerField(default=0)
     booked_quantity = models.IntegerField(default=0)
-
+    
     def __str__(self):
-        return self.center.name + "  |  " + self.vaccine.name
+        return self.center.name + "  |  " + self.vaccine.name 
