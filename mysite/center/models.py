@@ -3,7 +3,7 @@ from vaccine.models import Vaccine
 
 class Center(models.Model):
     name=models.CharField(max_length=124)
-    address=models.TextField(max_length=500) 
+    address=models.TextField(max_length=500)
 
 
     def __str__(self):

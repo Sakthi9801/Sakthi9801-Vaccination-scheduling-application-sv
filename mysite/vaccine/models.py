@@ -10,4 +10,4 @@ class Vaccine(models.Model):
     minimun_age=models.IntegerField(default=0)
                                
     def __str__(self) -> str:
-        return self.name                          
+        return self.name                           
